@@ -243,7 +243,7 @@ button:focus {
 }
 /* sliki za single page */
 .slika1 {
-    background-image: url(/img/1.jpeg);
+    background-image: url("../img/1.jpeg");
     clip-path: polygon(0 1%, 100% 0, 100% 65%, 0% 100%);
     position: relative;
     z-index: 1;
@@ -253,7 +253,7 @@ button:focus {
 }
 
 .slika2 {
-    background-image: url(/img/2.jpeg);
+    background-image: url("../img/2.jpeg");
     clip-path: polygon(0 1%, 100% 0, 100% 65%, 0% 100%);
     background-size: cover;
     background-position: center;
@@ -261,7 +261,7 @@ button:focus {
 }
 
 .slika3 {
-    background-image: url(/img/3.jpeg);
+    background-image: url("../img/3.jpeg");
     clip-path: polygon(0 1%, 100% 0, 100% 65%, 0% 100%);
     background-size: cover;
     background-position: center;
@@ -269,7 +269,7 @@ button:focus {
 }
 
 .slika4 {
-    background-image: url(/img/4.jpeg);
+    background-image: url("../img/4.jpeg");
     clip-path: polygon(0 1%, 100% 0, 100% 65%, 0% 100%);
     background-size: cover;
     background-position: center;
@@ -277,7 +277,7 @@ button:focus {
 }
 
 .slika5 {
-    background-image: url(img/5.jpeg);
+    background-image: url("..img/5.jpeg");
     clip-path: polygon(0 1%, 100% 0, 100% 65%, 0% 100%);
     background-size: cover;
     background-position: center;
@@ -285,7 +285,7 @@ button:focus {
 }
 
 .slika6 {
-    background-image: url(/img/6.jpeg);
+    background-image: url("../img/6.jpeg");
     clip-path: polygon(0 1%, 100% 0, 100% 65%, 0% 100%);
     background-size: cover;
     background-position: center;
@@ -293,7 +293,7 @@ button:focus {
 }
 
 .slika7 {
-    background-image: url(/img/7.jpeg);
+    background-image: url("../img/7.jpeg");
     clip-path: polygon(0 1%, 100% 0, 100% 65%, 0% 100%);
     background-size: cover;
     background-position: center;
@@ -301,7 +301,7 @@ button:focus {
 }
 
 .slika8 {
-    background-image: url(/img/8.jpeg);
+    background-image: url("../img/8.jpeg");
     clip-path: polygon(0 1%, 100% 0, 100% 65%, 0% 100%);
     background-size: cover;
     background-position: center;
@@ -309,7 +309,7 @@ button:focus {
 }
 
 .slika9 {
-    background-image: url(/img/9.jpeg);
+    background-image: url("../img/9.jpeg");
     clip-path: polygon(0 1%, 100% 0, 100% 65%, 0% 100%);
     background-size: cover;
     background-position: center;
@@ -317,7 +317,7 @@ button:focus {
 }
 
 .slika10 {
-    background-image: url(/img/10.jpeg);
+    background-image: url("../img/10.jpeg");
     clip-path: polygon(0 1%, 100% 0, 100% 65%, 0% 100%);
     background-size: cover;
     background-position: center;
@@ -325,7 +325,7 @@ button:focus {
 }
 
 .slika11 {
-    background-image: url(/img/11.jpeg);
+    background-image: url("../img/11.jpeg");
     clip-path: polygon(0 1%, 100% 0, 100% 65%, 0% 100%);
     background-size: cover;
     background-position: center;
@@ -333,7 +333,7 @@ button:focus {
 }
 
 .slika12 {
-    background-image: url(/img/12.jpeg);
+    background-image: url("../img/12.jpeg");
     clip-path: polygon(0 1%, 100% 0, 100% 65%, 0% 100%);
     background-size: cover;
     background-position: center;
@@ -341,7 +341,7 @@ button:focus {
 }
 
 .slika13 {
-    background-image: url(/img/13.jpeg);
+    background-image: url("../img/13.jpeg");
     clip-path: polygon(0 1%, 100% 0, 100% 65%, 0% 100%);
     background-size: cover;
     background-position: center;
@@ -349,7 +349,7 @@ button:focus {
 }
 
 .slika14 {
-    background-image: url(/img/14.jpeg);
+    background-image: url("../img/14.jpeg");
     clip-path: polygon(0 1%, 100% 0, 100% 65%, 0% 100%);
     background-size: cover;
     background-position: center;
@@ -357,7 +357,7 @@ button:focus {
 }
 
 .slika15 {
-    background-image: url(/img/15.jpeg);
+    background-image: url("../img/15.jpeg");
     clip-path: polygon(0 1%, 100% 0, 100% 65%, 0% 100%);
     background-size: cover;
     background-position: center;
@@ -365,7 +365,7 @@ button:focus {
 }
 
 .slika16 {
-    background-image: url(/img/16.jpeg);
+    background-image: url("../img/16.jpeg");
     clip-path: polygon(0 1%, 100% 0, 100% 65%, 0% 100%);
     background-size: cover;
     background-position: center;
@@ -373,7 +373,7 @@ button:focus {
 }
 
 .slika17 {
-    background-image: url(/img/17.jpeg);
+    background-image: url("../img/17.jpeg");
     clip-path: polygon(0 1%, 100% 0, 100% 65%, 0% 100%);
     background-size: cover;
     background-position: center;
@@ -381,7 +381,7 @@ button:focus {
 }
 
 .slika18 {
-    background-image: url(/img/18.jpeg);
+    background-image: url("../img/18.jpeg");
     clip-path: polygon(0 1%, 100% 0, 100% 65%, 0% 100%);
     background-size: cover;
     background-position: center;
