@@ -1,0 +1,517 @@
+/* navbar*/
+
+.meni i{
+    margin-right: 4px;
+}
+
+.meni {
+    color: yellow;
+    background-color: transparent;
+}
+
+.meni:hover{
+    color: yellow;
+}
+
+.zolt {
+    background-color: yellow;
+    color: black;
+}
+
+.navbar-right li a {
+    padding: 0;
+}
+
+.navbar-right li a:hover {
+    background-color: transparent;
+}
+
+.crn {
+    background-color: black;
+    color: yellow;
+    margin-left: 10px;
+}
+
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 100000000;
+    background-color: transparent;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 0;
+    margin: 0; 
+    border-bottom: 1px solid black;
+}
+
+.navbar-header a {
+    display: none;
+}
+
+.logo {
+    height: 45px;
+}
+
+/* modal */
+
+.modal-dialog {
+    position: fixed;
+    left: 0;
+    top: 30px;
+    width: 300px;
+ }
+
+.modal-header .close {
+    margin-top: 10px;
+    font-size: 17px;
+}
+
+.modal-content {
+    height: 100vh;
+ }
+
+.modal-body p{
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.modal-body p a {
+    color: black;
+    text-decoration: none;
+}
+
+.modal-body p a:hover{
+    color: yellow;
+}
+
+#prv {
+    margin-top: 20vh;
+}
+
+/* landing page */
+
+.skrien {
+    display: none;
+}
+
+.skrien2 {
+    display: none;
+}
+
+button:focus {
+    outline: none !important;
+    color: yellow !important;
+}
+
+.vidliv {
+    display: inline-block;
+}
+
+.up {
+    padding-top: 50px;
+    color: white;
+    background: linear-gradient(173deg, #431781 80%, #ffffff 40%);
+}
+
+.down {
+    background: linear-gradient(-7deg, #431781 61%, #ffffff 40%);
+    color: white;
+}
+
+.eden {
+    margin-top: 5vh;
+}
+
+.eden a {
+    color: yellow;
+    text-decoration: underline;
+}
+
+.dva h1{
+    font-size: 45px;
+}
+/* footer landing page */
+
+.footer {
+    padding: 40px 40px;
+    border-top: 1px solid black;
+}
+
+.devet {
+    padding-top: 12px;
+    font-size: 17px;
+}
+
+.devet a {
+    color: white;
+    text-decoration: none;
+}
+
+.devet a:hover {
+    color: yellow;
+}
+
+.deset {
+    padding-top: 11px;
+}
+
+/* karticki */
+
+.tri {
+    color: blue;
+}
+
+.panel-heading img {
+   background-color: black;
+}
+
+.panel {
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.panel-body {
+    background-color: white;
+}
+
+.panel-heading {
+    padding: 0;
+}
+
+.panel a {
+    text-decoration: none;
+    color: black;
+}
+
+.media-right img {
+    border-radius: 100%;
+}
+
+/* single page */
+.ses {
+    height: 100%;
+    margin-top: 103vh;
+    margin-bottom: 10vh;
+}
+
+.gray {
+    color: gray;
+}
+
+.siv {
+    background-color: lightgray;
+    border-radius: 10px;
+    height: 15vh;
+    margin-top: 3vh;
+    padding-top: 5vh;
+    padding-left: 3vw;
+    color: black;
+}
+
+.sedum {
+    border-bottom: 1px solid gray;
+}
+
+.sedum:last-child {
+    border: none;
+}
+
+.osum {
+    margin-bottom: 40px;
+}
+
+.dole {
+    background: linear-gradient(-7deg, #431781 75%, #ffffff 40%);
+    color: white;
+    padding-top: 30vh;
+}
+
+
+/* forma */
+.forma {
+    background: linear-gradient(-10deg, #43178198 50%, #ffffff 90%);
+}
+
+.primary {
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.primary a {
+    text-decoration: none;
+}
+/* sliki za single page */
+.slika1 {
+    background-image: url(/img/1.jpeg);
+    clip-path: polygon(0 1%, 100% 0, 100% 65%, 0% 100%);
+    position: relative;
+    z-index: 1;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.slika2 {
+    background-image: url(/img/2.jpeg);
+    clip-path: polygon(0 1%, 100% 0, 100% 65%, 0% 100%);
+    background-size: cover;
+    background-position: center;
+    height:100vh;
+}
+
+.slika3 {
+    background-image: url(/img/3.jpeg);
+    clip-path: polygon(0 1%, 100% 0, 100% 65%, 0% 100%);
+    background-size: cover;
+    background-position: center;
+    height:100vh;
+}
+
+.slika4 {
+    background-image: url(/img/4.jpeg);
+    clip-path: polygon(0 1%, 100% 0, 100% 65%, 0% 100%);
+    background-size: cover;
+    background-position: center;
+    height:100vh;
+}
+
+.slika5 {
+    background-image: url(img/5.jpeg);
+    clip-path: polygon(0 1%, 100% 0, 100% 65%, 0% 100%);
+    background-size: cover;
+    background-position: center;
+    height:100vh;
+}
+
+.slika6 {
+    background-image: url(/img/6.jpeg);
+    clip-path: polygon(0 1%, 100% 0, 100% 65%, 0% 100%);
+    background-size: cover;
+    background-position: center;
+    height:100vh;
+}
+
+.slika7 {
+    background-image: url(/img/7.jpeg);
+    clip-path: polygon(0 1%, 100% 0, 100% 65%, 0% 100%);
+    background-size: cover;
+    background-position: center;
+    height:100vh;
+}
+
+.slika8 {
+    background-image: url(/img/8.jpeg);
+    clip-path: polygon(0 1%, 100% 0, 100% 65%, 0% 100%);
+    background-size: cover;
+    background-position: center;
+    height:100vh;
+}
+
+.slika9 {
+    background-image: url(/img/9.jpeg);
+    clip-path: polygon(0 1%, 100% 0, 100% 65%, 0% 100%);
+    background-size: cover;
+    background-position: center;
+    height:100vh;
+}
+
+.slika10 {
+    background-image: url(/img/10.jpeg);
+    clip-path: polygon(0 1%, 100% 0, 100% 65%, 0% 100%);
+    background-size: cover;
+    background-position: center;
+    height:100vh;
+}
+
+.slika11 {
+    background-image: url(/img/11.jpeg);
+    clip-path: polygon(0 1%, 100% 0, 100% 65%, 0% 100%);
+    background-size: cover;
+    background-position: center;
+    height:100vh;
+}
+
+.slika12 {
+    background-image: url(/img/12.jpeg);
+    clip-path: polygon(0 1%, 100% 0, 100% 65%, 0% 100%);
+    background-size: cover;
+    background-position: center;
+    height:100vh;
+}
+
+.slika13 {
+    background-image: url(/img/13.jpeg);
+    clip-path: polygon(0 1%, 100% 0, 100% 65%, 0% 100%);
+    background-size: cover;
+    background-position: center;
+    height:100vh;
+}
+
+.slika14 {
+    background-image: url(/img/14.jpeg);
+    clip-path: polygon(0 1%, 100% 0, 100% 65%, 0% 100%);
+    background-size: cover;
+    background-position: center;
+    height:100vh;
+}
+
+.slika15 {
+    background-image: url(/img/15.jpeg);
+    clip-path: polygon(0 1%, 100% 0, 100% 65%, 0% 100%);
+    background-size: cover;
+    background-position: center;
+    height:100vh;
+}
+
+.slika16 {
+    background-image: url(/img/16.jpeg);
+    clip-path: polygon(0 1%, 100% 0, 100% 65%, 0% 100%);
+    background-size: cover;
+    background-position: center;
+    height:100vh;
+}
+
+.slika17 {
+    background-image: url(/img/17.jpeg);
+    clip-path: polygon(0 1%, 100% 0, 100% 65%, 0% 100%);
+    background-size: cover;
+    background-position: center;
+    height:100vh;
+}
+
+.slika18 {
+    background-image: url(/img/18.jpeg);
+    clip-path: polygon(0 1%, 100% 0, 100% 65%, 0% 100%);
+    background-size: cover;
+    background-position: center;
+    height:100vh;
+}
+
+/* tablet */
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        position: absolute;
+    }
+
+    .navbar-right {
+        display: none;
+    }
+
+    .skrien2 {
+        display: block;
+        padding-top: 15vh;
+    }
+
+    #skrien2 {
+        padding: 0;
+    }
+
+    .siv {
+        height: 20vh;
+    }
+
+    .sedum {
+        padding: 10px;
+    }
+
+    .devet a{
+        font-size: 14px;
+    }
+
+    .modal-dialog {
+        top: 10vh;
+    }
+}
+
+/* mobile */
+@media screen and (max-width: 426px) {
+    .navbar {
+        position: absolute;
+        top: 0;
+    }
+
+    .panel-heading img {
+        display: none;
+    }
+
+    .panel-body img {
+        display: block;  
+    }
+
+    .navbar-header a {
+        display: inline-block;
+        margin-left: 35px;
+    }
+
+    .vidliv {
+        display: none;
+    }
+
+    .skrien {
+        display: block;
+    }
+
+    .skrien2 {
+        display: block;
+        padding-top: 15vh;
+    }
+
+    #skrien2 {
+        padding: 0;
+    }
+
+    .devet {
+        margin-bottom: 5vh;
+    }
+
+    .deset {
+        margin-bottom: 5vh;
+    }
+
+    .edinaeset {
+        margin-bottom: 5vh;
+    }
+
+    .up {
+        background: linear-gradient(173deg, #431781 50%, #ffffff 40%);
+    }
+    .down {
+        background: linear-gradient(-7deg, #431781 53%, #ffffff 40%);
+    }
+    .eden-eden {
+        margin-top: 25vh;
+    }
+
+    .eden p {
+        font-size: 12px;
+    }
+
+    .dva h1{
+        font-size: 33px;
+    }
+    .crn {
+        margin-right: 0;
+    }
+
+    .siv {
+        height: 45vh;
+    }
+
+    .sedum {
+        padding:12px;
+    }
+
+    .dole {
+        background: linear-gradient(-10deg, #431781 90%, #ffffff 40%);
+        padding-top: 15vh;
+    }
+
+    .footer {
+        padding: 0;
+        border: none;
+    }
+}
+
+
