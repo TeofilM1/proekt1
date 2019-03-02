@@ -15,7 +15,7 @@
 <body id="top">
     <div class="navbar">
         <div class="navbar-header col-lg-4 col-md-5">
-            <button class="btn navbar-btn meni" data-toggle="modal" data-target="#myModal" href="#"><i class="fas fa-bars"></i>Мени</button>
+            <button class="btn navbar-btn meni" data-toggle="modal" data-target="#myModal"><i class="fas fa-bars"></i>Мени</button>
             <a  href="index.html"><img src="img/logo.png" class=" logo " alt=""></a>
         </div>
         <div class="collapse navbar-collapse " id="bs-example-navbar-collapse-1">
@@ -665,22 +665,23 @@
             </div>
         </div>
     </div>
-    <div id="myModal" class="modal fade modal-left" role="dialog">
-        <div class="modal-dialog ">
+    <div class="modal left fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
             <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal">Затвори &times;</button>
-                <img src="img/logo.png" style="width:120px;" alt="">
-            </div>
-            <div class="modal-body">
-                <p id="prv"><a href="form.html" target="_blank" ><b>Регистрирај се</b></a></p>
-                <p><a href="form.html" target="_blank" ><b>Најави се</b></a></p>
-                <p><a href="https://brainster.co/about" target="_blank" ><b>За нас</b></a></p>
-                <p><a href="https://www.facebook.com/pg/brainster.co/photos/" target="_blank" ><b>Галерија</b></a></p>
-            </div>
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">Затвори &times;</button>
+                    <img src="img/logo.png" style="width:120px;" alt="">
+                </div>
+                <div class="modal-body">
+                    <p id="prv"><a href="form.html" target="_blank" ><b>Регистрирај се</b></a></p>
+                    <p><a href="form.html" target="_blank" ><b>Најави се</b></a></p>
+                    <p><a href="https://brainster.co/about" target="_blank" ><b>За нас</b></a></p>
+                    <p><a href="https://www.facebook.com/pg/brainster.co/photos/" target="_blank" ><b>Галерија</b></a></p>
+                </div>
             </div>
         </div>
     </div>
+        
     
 </body>
 </html>
